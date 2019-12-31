@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    background-color: #5995DA;
+    color: #fff;
+    padding: 2rem 2rem;
+}
+
+.menu {
+    /* border: 0.2rem solid #fff; */
+    width: 90rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    /* padding: 1rem; */
+}
+
+.links {
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: flex-start;
+} 
+
+.Login {
+    margin-left: 2rem;
+}
+
+.header-container {
+    background-color: #D6E9FE;
+    color: #5995DA;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 90rem;
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem; 
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 90rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.header .subscribe, .social {
+    align-self: flex-end;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
+    background-color: #D6E9FE;
+    height: 20rem;
+}
+
+.footer-item-1 {
+    flex: initial;
+    width: 30rem;
+    border: 0.1rem solid #fff;
+    background-color: #5995DA;
+}
+
+.footer-item-2 {
+    flex: 1;
+    border: 0.1rem solid #fff;
+}
+
+.footer-item-3 {
+    flex: initial;
+    width: 30rem;    
+    border: 0.1rem solid #fff;
+    background-color: #5995DA;
+}
+
+.Sign-Up {
+    margin-left: auto;
+    background-color: red;
+}
